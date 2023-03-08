@@ -1,23 +1,23 @@
-# name of the resource group i.e smoclusterk8s
-resourceGroup='smoclusterk8s'
+# name of the resource group i.e clusterk8s
+resourceGroup=''
 
 # Region where AKS shall be deployed i.e eastus
-location='eastus'
+location=''
 
-# AKS cluster name i.e smocluster12
-clusterName='smocluster12'
+# AKS cluster name i.e cluster12
+clusterName=''
 
 # Version of Kubernetes to use for creating the cluster, i.e 1.24.9
-k8sVersion='1.24.9'
+k8sVersion=''
 
 # Number of worker nodes in your node pool, default is 3
-nodeCount='3'
+nodeCount=''
 
 # Azure Virtual Machine size, default is Standard_DS2_v2
-vmSize='Standard_DS2_v2'
+vmSize=''
 
 # Kubernetes network plugin to use. available options: kubenet,Azure or none. Default kubenet
-networkPlugin='kubenet'
+networkPlugin=''
 
 # Check if resource group exist before creating
 if [ $(az group exists --name $resourceGroup) = false ]; then 
