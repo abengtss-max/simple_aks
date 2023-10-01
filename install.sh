@@ -10,5 +10,5 @@ sudo apt-get update && sudo apt-get install azure-cli
 # Install Docker
 sudo apt-get update && sudo apt-get install docker.io
 # Install AKS CLI
-az aks install-cli
+sudo az aks install-cli
 
