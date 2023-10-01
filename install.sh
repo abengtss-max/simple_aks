@@ -8,7 +8,7 @@ AZ_REPO=$(lsb_release -cs) && echo "deb [arch=amd64] https://packages.microsoft.
 # Install Azure CLI
 sudo apt-get update && sudo apt-get install azure-cli
 # Install Docker
-sudo apt-get update && sudo apt-get install docker.io
+sudo apt-get install docker.io -y
 # Install AKS CLI
 sudo az aks install-cli
 
