@@ -1,4 +1,6 @@
 # Instructions
+> [!Note]
+> Application Gateway has two versions of the WAF sku: Application Gateway WAF_v1 and Application Gateway WAF_v2. WAF policy associations are only supported for the Application Gateway WAF_v2 sku.
 
 ## Environment variables
 
